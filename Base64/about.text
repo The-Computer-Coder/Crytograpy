@@ -1,0 +1,14 @@
+Base64 encoding converts the binary data into text format, which is passed through communication channel where a user can handle text safely. Base64 is also called as Privacy enhanced Electronic mail (PEM) and is primarily used in email encryption process.
+
+Difference between ASCII and base64
+You can observe the following differences when you work on ASCII and base64 for encoding data −
+
+When you encode text in ASCII, you start with a text string and convert it to a sequence of bytes.
+
+When you encode data in Base64, you start with a sequence of bytes and convert it to a text string.
+
+Drawback
+Base64 algorithm is usually used to store passwords in database. The major drawback is that each decoded word can be encoded easily through any online tool and intruders can easily get the information.
+
+0000 0000  - ff ffffff
+char ==>>ASCII  ==>>BInary VAlUES ==>

@@ -1,0 +1,159 @@
+#include<stdio.h>
+
+main()
+{
+   char s[] = "Fine";
+   *s = 'N';
+   
+   printf("%s", s);
+}
+A - Fine
+
+B - Nine
+
+C - Compile error
+
+D - Runtime error
+
+2) 
+#include<stdio.h>
+
+#define sqr(i) i*i
+main()
+{
+   printf("%d %d", sqr(3), sqr(3+1));
+}
+A - 9 16
+
+B - 9 7
+
+C - Error: macro cannot be defined in lower case.
+
+D - None of the above.
+
+3) 
+#include<stdio.h>
+
+int main()
+{
+    int y = 100;
+    const int x = y;
+
+    printf("%d\n", x);
+    return 0;
+}
+A - 100
+
+B - 0
+
+C - Print x
+
+D - Return Error
+
+4) 
+#include<stdio.h>
+
+main()
+{
+   union abc {
+      int x;
+      char ch;
+   }var;
+
+   var.ch = 'A';
+   printf("%d", var.x);
+}
+A - A
+
+B - Garbage value
+
+C - 65
+
+D - 97
+
+5)
+To print a float value which format specifier can be used?
+
+A - %f
+
+B - %lf
+
+C - %Lf
+
+D - None of the above
+
+6)
+Q - Which of the following operator can be used to access value at address stored in a pointer variable?
+
+A - *
+
+B - #
+
+C - &&
+
+D - @
+7) 
+Q - Which of the following operator can be used to access value at address stored in a pointer variable?
+
+A - *
+
+B - #
+
+C - &&
+
+D - @
+
+8)
+Q - The equivalent pointer expression by using the array element a[i][j][k][2],
+
+A - ((((a+m)+n)+o)+p)
+
+B - *(*(*(*(a+i)+j)+k)+2)
+
+C - *( (((a+m)+n)+o+p)
+
+D - *( ((a+m)+n+o+p) 
+9)
+#include<stdio.h>
+
+int main ()
+{
+   FILE *fp;
+
+   fp = fopen("NOTES.TXT", "r+");
+   return 0;
+}
+A - "r+" open the file "NOTES.TXT" file for reading
+
+B - "r+" open the file "NOTES.TXT" file for writing
+
+C - "r+" open the file "NOTES.TXT" file for appending
+
+D - "r+" open the file "NOTES.TXT" file for reading & writing both
+
+10) 
+#include<stdio.h>
+
+int main();
+void main()
+{
+   printf("Okay");
+}
+A - Okay
+
+B - No output
+
+C - Compile error. We cannot declare main() function.
+
+D - Compile error. Mismatch in declaration & definition.
+
+
+11)
+ Can we have multiple classes in same java file?
+
+A - True
+
+B - False
+
+12)
+

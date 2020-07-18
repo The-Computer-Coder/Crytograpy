@@ -1,0 +1,9 @@
+Hacking RSA cipher is possible with small prime numbers, but it is considered impossible if it is used with large numbers. The reasons which specify why it is difficult to hack RSA cipher are as follows −
+
+Brute force attack would not work as there are too many possible keys to work through. Also, this consumes a lot of time.
+
+Dictionary attack will not work in RSA algorithm as the keys are numeric and does not include any characters in it.
+
+Frequency analysis of the characters is very difficult to follow as a single encrypted block represents various characters.
+
+There are no specific mathematical tricks to hack RSA cipher.
